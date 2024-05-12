@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="cool_blue_primary">#2196F3</color> <!-- Blue -->
+    <color name="cool_blue_dark">#1976D2</color> <!-- Darker Blue -->
+    <color name="cool_blue_light">#64B5F6</color> <!-- Lighter Blue -->
+
+    <!-- Accent Colors -->
+    <color name="cool_accent">#FF4081</color> <!-- Pink Accent -->
+    <color name="cool_accent_dark">#F50057</color> <!-- Darker Pink Accent -->
+    <color name="cool_accent_light">#FF80AB</color> <!-- Lighter Pink Accent -->
+
+    <!-- Neutral Colors -->
+    <color name="cool_white">#FFFFFF</color> <!-- White -->
+    <color name="cool_gray">#9E9E9E</color> <!-- Gray -->
+    <color name="cool_black">#000000</color> <!-- Black -->
+</resources>

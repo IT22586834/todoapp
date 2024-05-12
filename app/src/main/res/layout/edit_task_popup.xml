@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/parentLayout"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F0F0"> <!-- Background color -->
+
+    <EditText
+        android:id="@+id/TextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Task Title"
+        android:inputType="text"
+        android:textAppearance="@style/EditTextStyle"/> <!-- Text appearance -->
+
+    <EditText
+        android:id="@+id/TextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:textAppearance="@style/EditTextStyle"/> <!-- Text appearance -->
+
+    <DatePicker
+        android:id="@+id/DueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:layout_marginBottom="4dp"/>
+
+    <Spinner
+        android:id="@+id/textspinnerPriority"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Priority"
+        android:entries="@array/priority_levels"
+        android:textAppearance="@style/SpinnerStyle"/> <!-- Text appearance -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<!-- button_focused.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FFA726" /> <!-- Button Color when Focused -->
+    <corners android:radius="8dp" /> <!-- Button Corner Radius -->
+</shape>
